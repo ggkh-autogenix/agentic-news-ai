@@ -5,3 +5,4 @@ newspaper3k
 beautifulsoup4
 twilio
 apscheduler
+lxml_html_clean
