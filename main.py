@@ -6,6 +6,10 @@ from apscheduler.schedulers.background import BackgroundScheduler
 
 app = FastAPI()
 
+@app.get("/")
+def root():
+    return {"message": "Welcome to ggkh-agenticnews-ai"}
+    
 @app.post("/daily-summary")
 async def daily_summary(request: Request):
     data = await request.json()
