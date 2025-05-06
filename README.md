@@ -145,6 +145,15 @@ curl -X POST http://127.0.0.1:8000/daily-summary \
 
 ## 📬 Contact
 
+`ggkh-autogenix` is a research and development space for cutting-edge AI/ML projects led by Gopi Krishna Hanuman Gokavarapu.  You can reach out via gopiaimlworks@gmail.com
+The focus is on:
+
+- 🎥 **Computer Vision** (e.g. YOLOv8 + CCTV-based behavior monitoring)
+- 🧠 **Agentic AI Systems** (autonomous agents, multi-modal AI)
+- 📊 **ML Experiments** (training, evaluation, and deployment)
+- 🧰 **End-to-End PoCs** (AWS SageMaker, Google Colab, ONNX, FastAPI)
+
+---
 
 
 ```
