@@ -145,12 +145,11 @@ curl -X POST http://127.0.0.1:8000/daily-summary \
 
 ## 📬 Contact
 
-Built by **Easy Life Innovations**
-For queries, reach out via GitHub issues or email.
+
 
 ```
 
 ---
 
-Let me know if you want this customized with your company name or GitHub username pre-filled.
+
 ```
