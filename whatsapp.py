@@ -6,9 +6,9 @@ def send_whatsapp(to, message):
     words = message.split()
     trimmed_message = ' '.join(words[:100])  # Limit to first 100 words
 
-    account_sid = os.getenv("TWILIO_ACCOUNT_SID")
-    auth_token = os.getenv("TWILIO_AUTH_TOKEN")
-    from_whatsapp_number = os.getenv("TWILIO_FROM_WHATSAPP")
+    account_sid = os.getenv("TWILIO_SID")
+    auth_token = os.getenv("TWILIO_TOKEN")
+    from_whatsapp_number = os.getenv("TWILIO_WHATSAPP")
 
     client = Client(account_sid, auth_token)
     client.messages.create(
