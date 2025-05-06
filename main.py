@@ -6,7 +6,7 @@ app = FastAPI()
 
 @app.get("/")
 def home():
-    return {"message": "Welcome to Agentic News AI!"}
+    return {"message": "Welcome to Agentic News AI from GGKH-AUTOGENIX!"}
 
 @app.post("/daily-summary")
 async def daily_summary(request: Request):
