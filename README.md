@@ -1,12 +1,4 @@
-Here's a **clean, simple Agentic AI PoC** version of your project to include in a GitHub repo and send to investors. It includes:
 
-* ✅ Clear structure
-* ✅ Uses FastAPI for endpoints
-* ✅ Dynamically accepts newspaper URLs and API keys
-* ✅ Sends short WhatsApp summaries
-* ✅ Includes `README.md` content ready to copy-paste
-
----
 
 
 # Agentic News AI 📰🤖
