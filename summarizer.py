@@ -1,7 +1,7 @@
 import requests
 
 def summarize_articles(articles, user_api_key):
-    text_input = "\n\n".join([a["text"][:1000] for a in articles])
+    text_input = "\n\n".join([a["text"][:10] for a in articles])
     prompt = f"""Summarize the following news articles into 50 lines or less.
 Group them by category: Politics, Economy, Sports, Technology, World.
 Ensure deduplication and clarity:\n\n{text_input}"""
