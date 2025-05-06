@@ -15,9 +15,13 @@ async def daily_summary(request: Request):
     data = await request.json()
     urls = data.get("urls", [])
     phone = data.get("phone", "")
+    user_api_key = data.get("openai_key", "")
+
+    if not user_api_key:
+        return {"error": "Missing OpenAI API key"}
 
     articles = scrape_articles(urls)
-    summary = summarize_articles(articles)
+    summary = summarize_articles(articles, user_api_key)
     send_whatsapp(phone, summary)
     return {"status": "Summary sent"}
 
