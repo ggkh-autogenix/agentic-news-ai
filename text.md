@@ -1,4 +1,4 @@
-###Anti-Dilution Protection
+### Anti-Dilution Protection
 | Aspect                | Current Draft (Broad-Based Weighted Avg)                        | Investor Version (Full-Ratchet)                            | Recommendation                                                                             |
 | --------------------- | --------------------------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 | **Mechanism**         | Broad-Based Weighted Average                                    | Full-Ratchet                                               | 🔺Update to Full-Ratchet if investor insists — this is more protective of investor rights. |
@@ -15,5 +15,5 @@
 | Aspect               | Current Draft          | Investor Version                                                   | Recommendation                                              |
 | -------------------- | ---------------------- | ------------------------------------------------------------------ | ----------------------------------------------------------- |
 | **Put Option**       | Not mentioned directly | Yes – mandatory after 3 years                                      | 🔺Add Put Option clause for clear enforceability.           |
-| **Repurchase Price** | Not specified          | Higher of 2x original price or FMV (by SEBI Cat-I Merchant Banker) | 🔺Add pricing terms to improve clarity and enforceability.  |
+| **Repurchase Price** | Not specified          |  FMV (by SEBI Cat-I Merchant Banker)  | 🔺Add pricing terms to improve clarity and enforceability.  |
 | **Liability**        | Not specified          | Company and Promoters jointly/severally liable                     | 🔺Add joint/several liability clause for better protection. |
